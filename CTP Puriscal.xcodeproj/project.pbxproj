@@ -9,11 +9,44 @@
 /* Begin PBXBuildFile section */
 		78144FD81C1CA092007F787A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FD71C1CA092007F787A /* main.m */; };
 		78144FDB1C1CA092007F787A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FDA1C1CA092007F787A /* AppDelegate.m */; };
-		78144FDE1C1CA092007F787A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FDD1C1CA092007F787A /* ViewController.m */; };
 		78144FE11C1CA092007F787A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78144FDF1C1CA092007F787A /* Main.storyboard */; };
 		78144FE31C1CA092007F787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78144FE21C1CA092007F787A /* Assets.xcassets */; };
 		78144FE61C1CA092007F787A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78144FE41C1CA092007F787A /* LaunchScreen.storyboard */; };
 		78144FF11C1CA092007F787A /* CTP_PuriscalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FF01C1CA092007F787A /* CTP_PuriscalTests.m */; };
+		783E07261C247EB10043D397 /* OptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07251C247EB10043D397 /* OptionsTableViewController.m */; };
+		783E07291C247FD00043D397 /* OptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07281C247FD00043D397 /* OptionTableViewCell.m */; };
+		783E074E1C248BC60043D397 /* bancaenfinanzas.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E072E1C248BC60043D397 /* bancaenfinanzas.png */; };
+		783E074F1C248BC60043D397 /* bancaenfinanzasm.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E072F1C248BC60043D397 /* bancaenfinanzasm.png */; };
+		783E07501C248BC60043D397 /* basurero.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07301C248BC60043D397 /* basurero.png */; };
+		783E07511C248BC60043D397 /* benefits.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07311C248BC60043D397 /* benefits.png */; };
+		783E07521C248BC60043D397 /* carreras.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07321C248BC60043D397 /* carreras.png */; };
+		783E07531C248BC60043D397 /* configuracionesmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07331C248BC60043D397 /* configuracionesmenu.png */; };
+		783E07541C248BC60043D397 /* contacto.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07341C248BC60043D397 /* contacto.png */; };
+		783E07551C248BC60043D397 /* contador.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07351C248BC60043D397 /* contador.png */; };
+		783E07561C248BC60043D397 /* contadorm.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07361C248BC60043D397 /* contadorm.png */; };
+		783E07571C248BC60043D397 /* customerservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07371C248BC60043D397 /* customerservice.png */; };
+		783E07581C248BC60043D397 /* customerservicem.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07381C248BC60043D397 /* customerservicem.png */; };
+		783E07591C248BC60043D397 /* horario.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07391C248BC60043D397 /* horario.png */; };
+		783E075A1C248BC60043D397 /* icomapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E073A1C248BC60043D397 /* icomapa.png */; };
+		783E075B1C248BC60043D397 /* iconollamada.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E073B1C248BC60043D397 /* iconollamada.png */; };
+		783E075C1C248BC60043D397 /* iconomail.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E073C1C248BC60043D397 /* iconomail.png */; };
+		783E075D1C248BC60043D397 /* informaticamepresarial.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E073D1C248BC60043D397 /* informaticamepresarial.png */; };
+		783E075E1C248BC60043D397 /* informaticamepresarialm.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E073E1C248BC60043D397 /* informaticamepresarialm.png */; };
+		783E075F1C248BC60043D397 /* llamarmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E073F1C248BC60043D397 /* llamarmenu.png */; };
+		783E07601C248BC60043D397 /* localizacion.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07401C248BC60043D397 /* localizacion.png */; };
+		783E07611C248BC60043D397 /* logistica.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07411C248BC60043D397 /* logistica.png */; };
+		783E07621C248BC60043D397 /* logisticam.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07421C248BC60043D397 /* logisticam.png */; };
+		783E07631C248BC60043D397 /* logoctp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 783E07431C248BC60043D397 /* logoctp.jpg */; };
+		783E07641C248BC60043D397 /* redes.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07441C248BC60043D397 /* redes.png */; };
+		783E07651C248BC60043D397 /* redesm.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07451C248BC60043D397 /* redesm.png */; };
+		783E07661C248BC60043D397 /* requisitos.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07461C248BC60043D397 /* requisitos.png */; };
+		783E07671C248BC60043D397 /* salvar.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07471C248BC60043D397 /* salvar.png */; };
+		783E07681C248BC60043D397 /* secretariado.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07481C248BC60043D397 /* secretariado.png */; };
+		783E07691C248BC60043D397 /* secretariadom.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E07491C248BC60043D397 /* secretariadom.png */; };
+		783E076A1C248BC60043D397 /* soportecomputadoras.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074A1C248BC60043D397 /* soportecomputadoras.png */; };
+		783E076B1C248BC60043D397 /* soportecomputadorasm.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074B1C248BC60043D397 /* soportecomputadorasm.png */; };
+		783E076C1C248BC60043D397 /* turismo.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074C1C248BC60043D397 /* turismo.png */; };
+		783E076D1C248BC60043D397 /* turismom.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074D1C248BC60043D397 /* turismom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +64,6 @@
 		78144FD71C1CA092007F787A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78144FD91C1CA092007F787A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78144FDA1C1CA092007F787A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78144FDC1C1CA092007F787A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78144FDD1C1CA092007F787A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78144FE01C1CA092007F787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78144FE21C1CA092007F787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78144FE51C1CA092007F787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +71,42 @@
 		78144FEC1C1CA092007F787A /* CTP PuriscalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTP PuriscalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78144FF01C1CA092007F787A /* CTP_PuriscalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTP_PuriscalTests.m; sourceTree = "<group>"; };
 		78144FF21C1CA092007F787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783E07241C247EB10043D397 /* OptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsTableViewController.h; sourceTree = "<group>"; };
+		783E07251C247EB10043D397 /* OptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsTableViewController.m; sourceTree = "<group>"; };
+		783E07271C247FD00043D397 /* OptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableViewCell.h; sourceTree = "<group>"; };
+		783E07281C247FD00043D397 /* OptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableViewCell.m; sourceTree = "<group>"; };
+		783E072E1C248BC60043D397 /* bancaenfinanzas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bancaenfinanzas.png; sourceTree = "<group>"; };
+		783E072F1C248BC60043D397 /* bancaenfinanzasm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bancaenfinanzasm.png; sourceTree = "<group>"; };
+		783E07301C248BC60043D397 /* basurero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basurero.png; sourceTree = "<group>"; };
+		783E07311C248BC60043D397 /* benefits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = benefits.png; sourceTree = "<group>"; };
+		783E07321C248BC60043D397 /* carreras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carreras.png; sourceTree = "<group>"; };
+		783E07331C248BC60043D397 /* configuracionesmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuracionesmenu.png; sourceTree = "<group>"; };
+		783E07341C248BC60043D397 /* contacto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacto.png; sourceTree = "<group>"; };
+		783E07351C248BC60043D397 /* contador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contador.png; sourceTree = "<group>"; };
+		783E07361C248BC60043D397 /* contadorm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contadorm.png; sourceTree = "<group>"; };
+		783E07371C248BC60043D397 /* customerservice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customerservice.png; sourceTree = "<group>"; };
+		783E07381C248BC60043D397 /* customerservicem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customerservicem.png; sourceTree = "<group>"; };
+		783E07391C248BC60043D397 /* horario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horario.png; sourceTree = "<group>"; };
+		783E073A1C248BC60043D397 /* icomapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icomapa.png; sourceTree = "<group>"; };
+		783E073B1C248BC60043D397 /* iconollamada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconollamada.png; sourceTree = "<group>"; };
+		783E073C1C248BC60043D397 /* iconomail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconomail.png; sourceTree = "<group>"; };
+		783E073D1C248BC60043D397 /* informaticamepresarial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = informaticamepresarial.png; sourceTree = "<group>"; };
+		783E073E1C248BC60043D397 /* informaticamepresarialm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = informaticamepresarialm.png; sourceTree = "<group>"; };
+		783E073F1C248BC60043D397 /* llamarmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llamarmenu.png; sourceTree = "<group>"; };
+		783E07401C248BC60043D397 /* localizacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = localizacion.png; sourceTree = "<group>"; };
+		783E07411C248BC60043D397 /* logistica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logistica.png; sourceTree = "<group>"; };
+		783E07421C248BC60043D397 /* logisticam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logisticam.png; sourceTree = "<group>"; };
+		783E07431C248BC60043D397 /* logoctp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logoctp.jpg; sourceTree = "<group>"; };
+		783E07441C248BC60043D397 /* redes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redes.png; sourceTree = "<group>"; };
+		783E07451C248BC60043D397 /* redesm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redesm.png; sourceTree = "<group>"; };
+		783E07461C248BC60043D397 /* requisitos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = requisitos.png; sourceTree = "<group>"; };
+		783E07471C248BC60043D397 /* salvar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salvar.png; sourceTree = "<group>"; };
+		783E07481C248BC60043D397 /* secretariado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secretariado.png; sourceTree = "<group>"; };
+		783E07491C248BC60043D397 /* secretariadom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secretariadom.png; sourceTree = "<group>"; };
+		783E074A1C248BC60043D397 /* soportecomputadoras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soportecomputadoras.png; sourceTree = "<group>"; };
+		783E074B1C248BC60043D397 /* soportecomputadorasm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soportecomputadorasm.png; sourceTree = "<group>"; };
+		783E074C1C248BC60043D397 /* turismo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turismo.png; sourceTree = "<group>"; };
+		783E074D1C248BC60043D397 /* turismom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turismom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +148,17 @@
 		78144FD51C1CA092007F787A /* CTP Puriscal */ = {
 			isa = PBXGroup;
 			children = (
+				783E072B1C248B800043D397 /* img */,
+				78144FFB1C1CA123007F787A /* Views */,
 				78144FD91C1CA092007F787A /* AppDelegate.h */,
 				78144FDA1C1CA092007F787A /* AppDelegate.m */,
-				78144FDC1C1CA092007F787A /* ViewController.h */,
-				78144FDD1C1CA092007F787A /* ViewController.m */,
-				78144FDF1C1CA092007F787A /* Main.storyboard */,
 				78144FE21C1CA092007F787A /* Assets.xcassets */,
-				78144FE41C1CA092007F787A /* LaunchScreen.storyboard */,
 				78144FE71C1CA092007F787A /* Info.plist */,
 				78144FD61C1CA092007F787A /* Supporting Files */,
+				783E07241C247EB10043D397 /* OptionsTableViewController.h */,
+				783E07251C247EB10043D397 /* OptionsTableViewController.m */,
+				783E07271C247FD00043D397 /* OptionTableViewCell.h */,
+				783E07281C247FD00043D397 /* OptionTableViewCell.m */,
 			);
 			path = "CTP Puriscal";
 			sourceTree = "<group>";
@@ -109,6 +178,54 @@
 				78144FF21C1CA092007F787A /* Info.plist */,
 			);
 			path = "CTP PuriscalTests";
+			sourceTree = "<group>";
+		};
+		78144FFB1C1CA123007F787A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78144FDF1C1CA092007F787A /* Main.storyboard */,
+				78144FE41C1CA092007F787A /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		783E072B1C248B800043D397 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				783E072E1C248BC60043D397 /* bancaenfinanzas.png */,
+				783E072F1C248BC60043D397 /* bancaenfinanzasm.png */,
+				783E07301C248BC60043D397 /* basurero.png */,
+				783E07311C248BC60043D397 /* benefits.png */,
+				783E07321C248BC60043D397 /* carreras.png */,
+				783E07331C248BC60043D397 /* configuracionesmenu.png */,
+				783E07341C248BC60043D397 /* contacto.png */,
+				783E07351C248BC60043D397 /* contador.png */,
+				783E07361C248BC60043D397 /* contadorm.png */,
+				783E07371C248BC60043D397 /* customerservice.png */,
+				783E07381C248BC60043D397 /* customerservicem.png */,
+				783E07391C248BC60043D397 /* horario.png */,
+				783E073A1C248BC60043D397 /* icomapa.png */,
+				783E073B1C248BC60043D397 /* iconollamada.png */,
+				783E073C1C248BC60043D397 /* iconomail.png */,
+				783E073D1C248BC60043D397 /* informaticamepresarial.png */,
+				783E073E1C248BC60043D397 /* informaticamepresarialm.png */,
+				783E073F1C248BC60043D397 /* llamarmenu.png */,
+				783E07401C248BC60043D397 /* localizacion.png */,
+				783E07411C248BC60043D397 /* logistica.png */,
+				783E07421C248BC60043D397 /* logisticam.png */,
+				783E07431C248BC60043D397 /* logoctp.jpg */,
+				783E07441C248BC60043D397 /* redes.png */,
+				783E07451C248BC60043D397 /* redesm.png */,
+				783E07461C248BC60043D397 /* requisitos.png */,
+				783E07471C248BC60043D397 /* salvar.png */,
+				783E07481C248BC60043D397 /* secretariado.png */,
+				783E07491C248BC60043D397 /* secretariadom.png */,
+				783E074A1C248BC60043D397 /* soportecomputadoras.png */,
+				783E074B1C248BC60043D397 /* soportecomputadorasm.png */,
+				783E074C1C248BC60043D397 /* turismo.png */,
+				783E074D1C248BC60043D397 /* turismom.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +308,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783E076D1C248BC60043D397 /* turismom.png in Resources */,
+				783E07591C248BC60043D397 /* horario.png in Resources */,
+				783E076C1C248BC60043D397 /* turismo.png in Resources */,
+				783E07661C248BC60043D397 /* requisitos.png in Resources */,
+				783E07691C248BC60043D397 /* secretariadom.png in Resources */,
+				783E075C1C248BC60043D397 /* iconomail.png in Resources */,
+				783E07531C248BC60043D397 /* configuracionesmenu.png in Resources */,
+				783E07581C248BC60043D397 /* customerservicem.png in Resources */,
+				783E074E1C248BC60043D397 /* bancaenfinanzas.png in Resources */,
+				783E07631C248BC60043D397 /* logoctp.jpg in Resources */,
+				783E076A1C248BC60043D397 /* soportecomputadoras.png in Resources */,
+				783E075B1C248BC60043D397 /* iconollamada.png in Resources */,
+				783E07511C248BC60043D397 /* benefits.png in Resources */,
+				783E07521C248BC60043D397 /* carreras.png in Resources */,
+				783E075F1C248BC60043D397 /* llamarmenu.png in Resources */,
+				783E07541C248BC60043D397 /* contacto.png in Resources */,
+				783E075E1C248BC60043D397 /* informaticamepresarialm.png in Resources */,
+				783E07601C248BC60043D397 /* localizacion.png in Resources */,
+				783E07551C248BC60043D397 /* contador.png in Resources */,
+				783E07621C248BC60043D397 /* logisticam.png in Resources */,
+				783E076B1C248BC60043D397 /* soportecomputadorasm.png in Resources */,
+				783E075A1C248BC60043D397 /* icomapa.png in Resources */,
+				783E07681C248BC60043D397 /* secretariado.png in Resources */,
+				783E074F1C248BC60043D397 /* bancaenfinanzasm.png in Resources */,
+				783E07561C248BC60043D397 /* contadorm.png in Resources */,
 				78144FE61C1CA092007F787A /* LaunchScreen.storyboard in Resources */,
+				783E07671C248BC60043D397 /* salvar.png in Resources */,
 				78144FE31C1CA092007F787A /* Assets.xcassets in Resources */,
+				783E075D1C248BC60043D397 /* informaticamepresarial.png in Resources */,
+				783E07641C248BC60043D397 /* redes.png in Resources */,
+				783E07611C248BC60043D397 /* logistica.png in Resources */,
+				783E07501C248BC60043D397 /* basurero.png in Resources */,
 				78144FE11C1CA092007F787A /* Main.storyboard in Resources */,
+				783E07571C248BC60043D397 /* customerservice.png in Resources */,
+				783E07651C248BC60043D397 /* redesm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +360,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78144FDE1C1CA092007F787A /* ViewController.m in Sources */,
+				783E07291C247FD00043D397 /* OptionTableViewCell.m in Sources */,
 				78144FDB1C1CA092007F787A /* AppDelegate.m in Sources */,
+				783E07261C247EB10043D397 /* OptionsTableViewController.m in Sources */,
 				78144FD81C1CA092007F787A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +550,7 @@
 				78144FF71C1CA092007F787A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78144FF81C1CA092007F787A /* Build configuration list for PBXNativeTarget "CTP PuriscalTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +559,7 @@
 				78144FFA1C1CA092007F787A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
