@@ -8,6 +8,7 @@
 
 #import "OptionsTableViewController.h"
 #import "OptionTableViewCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface OptionsTableViewController ()
 
@@ -19,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView setContentInset:UIEdgeInsetsMake(20, self.tableView.contentInset.left
-                                                     , self.tableView.contentInset.bottom, self.tableView.contentInset.right)];
+
+    
     
     _optionNames = @[@"Técnicos Medios",@"Requisitos",@"Contacto",@"Dirección"];
     
@@ -35,15 +36,32 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return _optionNames.count;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    return _optionNames.count;
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 10;
 }
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *v = [UIView new];
+    [v setBackgroundColor:[UIColor clearColor]];
+    return v;
+}
+
+
+
+
+
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -51,13 +69,17 @@
     
     OptionTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
-    long row = [indexPath row];
+    // normalmente se pone row en lugar de section
+    long row = [indexPath section];
 
     cell.lblNombre.text = _optionNames[row];
     
     // según el id de la empresa se muestra cierta imagen
     cell.imgIcono.image = [UIImage imageNamed:_optionImages[row]];
     
+    [cell.layer setCornerRadius:35.0f];
+    
+
 
     return cell;
 }

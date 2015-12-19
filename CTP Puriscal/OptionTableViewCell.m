@@ -10,4 +10,10 @@
 
 @implementation OptionTableViewCell
 
+- (void)setFrame:(CGRect)frame {
+    frame.origin.x += 15;
+    frame.size.width -= 2 * 15;
+    [super setFrame:frame];
+}
+
 @end
