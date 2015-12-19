@@ -1,0 +1,75 @@
+//
+//  CareerDetailViewController.m
+//  CTP Puriscal
+//
+//  Created by user on 12/19/15.
+//  Copyright © 2015 user. All rights reserved.
+//
+
+#import "CareerDetailViewController.h"
+
+@interface CareerDetailViewController ()
+
+@end
+
+@implementation CareerDetailViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+    NSString * keyName = @"";
+    
+    switch (_indexSelected)
+    {
+        case 0:
+            keyName = @"bancaenfinanzas";
+            break;
+            
+        default:
+            break;
+    }
+    
+    // verficamos si hay un diccionario para cargar
+    if(![keyName isEqualToString:@""])
+    {
+        // cargamos los datos
+        [self loadDataWithKey:keyName];
+    }
+    
+    
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+// método que carga las opciones a mostrar a partir de un property list
+- (void) loadDataWithKey:(NSString *) keyName
+{
+    // obtenemos el path
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"plist"];
+    
+    // cargamos el contenido del archivo
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    
+    // establecemos los valores
+    NSDictionary *dictionary = [dict objectForKey:keyName];
+    
+    _lblIntroduction.text = [dictionary objectForKey:@"introduccion"];
+    
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

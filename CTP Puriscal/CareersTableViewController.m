@@ -9,6 +9,7 @@
 #import "CareersTableViewController.h"
 #import "OptionTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
+#import "CareerDetailViewController.h"
 
 @implementation CareersTableViewController
 
@@ -41,6 +42,18 @@
 }
 
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+ 
+    CareerDetailViewController *careerDetailViewController = [segue destinationViewController];
+    NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
+        
+    long row = [myIndexPath section];
+        
+    careerDetailViewController.indexSelected = row;
+    
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -65,11 +78,6 @@
     return v;
 }
 
-
-
-
-
-
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString * cellIdentifier = @"careerTableViewCell";
@@ -86,50 +94,13 @@
     
     [cell.layer setCornerRadius:35.0f];
     
-    
-    
     return cell;
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // obtenemos el índice del elemento que se seleccionó
-    NSInteger index = indexPath.row;
-    
-    // variable que indica cuál vista debe abrir
-    NSString * viewName = @"";
-    
-    // de acuerdo al elemento seleccionado modificamos el nombre del segue
-    switch (index) {
-        case 0:
-            viewName = @"bancaenfinanzas";
-            break;
-            
-        case 1:
-            viewName = @"bancaenfinanzas";
-            break;
-            
-        case 2:
-            break;
-            
-        case 3:
-            break;
-            
-        default:
-            break;
-    }
-    
-    // verficamos si hay un segue para mostrar
-    if(![viewName isEqualToString:@""])
-    {
-        // mostramos el segue
-        [self performSegueWithIdentifier:viewName sender:self];
-    }
-    
-    
-    
-    
+    [self performSegueWithIdentifier:@"careerDetail" sender:self];
 }
 
 

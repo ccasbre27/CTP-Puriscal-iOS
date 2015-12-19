@@ -49,6 +49,7 @@
 		783E07731C25C7300043D397 /* CareersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07721C25C7300043D397 /* CareersTableViewController.m */; };
 		783E07761C25D2630043D397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E07741C25D2630043D397 /* Main.storyboard */; };
 		783E07781C25D3DF0043D397 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 783E07771C25D3DF0043D397 /* resources.plist */; };
+		7887B36E1C25F35400FB16E8 /* CareerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		783E07721C25C7300043D397 /* CareersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareersTableViewController.m; sourceTree = "<group>"; };
 		783E07751C25D2630043D397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		783E07771C25D3DF0043D397 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
+		7887B36C1C25F35400FB16E8 /* CareerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CareerDetailViewController.h; sourceTree = "<group>"; };
+		7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareerDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				783E07711C25C7300043D397 /* CareersTableViewController.h */,
 				783E07721C25C7300043D397 /* CareersTableViewController.m */,
 				783E07771C25D3DF0043D397 /* resources.plist */,
+				7887B36C1C25F35400FB16E8 /* CareerDetailViewController.h */,
+				7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */,
 			);
 			path = "CTP Puriscal";
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				783E07291C247FD00043D397 /* OptionTableViewCell.m in Sources */,
+				7887B36E1C25F35400FB16E8 /* CareerDetailViewController.m in Sources */,
 				78144FDB1C1CA092007F787A /* AppDelegate.m in Sources */,
 				783E07261C247EB10043D397 /* OptionsTableViewController.m in Sources */,
 				78144FD81C1CA092007F787A /* main.m in Sources */,
