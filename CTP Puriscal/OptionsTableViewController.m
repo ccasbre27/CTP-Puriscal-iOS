@@ -63,4 +63,44 @@
 }
 
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // obtenemos el índice del elemento que se seleccionó
+    NSInteger index = indexPath.row;
+    
+    // variable que indica cuál vista debe abrir
+    NSString * viewName = @"";
+    
+    // de acuerdo al elemento seleccionado modificamos el nombre del segue
+    switch (index) {
+        case 0:
+            viewName = @"vista1";
+            break;
+            
+        case 1:
+            viewName = @"vista2";
+            break;
+            
+        case 2:
+            break;
+            
+        case 3:
+            break;
+            
+        default:
+            break;
+    }
+    
+    // verficamos si hay un segue para mostrar
+    if(![viewName isEqualToString:@""])
+    {
+        // mostramos el segue
+        [self performSegueWithIdentifier:viewName sender:self];
+    }
+    
+   
+
+    
+}
+
 @end
