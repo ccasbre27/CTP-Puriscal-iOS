@@ -96,7 +96,7 @@
     // de acuerdo al elemento seleccionado modificamos el nombre del segue
     switch (index) {
         case 0:
-            viewName = @"vista1";
+            viewName = @"tecnicos";
             break;
             
         case 1:
