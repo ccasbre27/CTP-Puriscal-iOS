@@ -1,31 +1,28 @@
 //
-//  OptionsTableViewController.m
+//  CareersTableViewModel.m
 //  CTP Puriscal
 //
-//  Created by user on 12/18/15.
+//  Created by user on 12/19/15.
 //  Copyright © 2015 user. All rights reserved.
 //
 
-#import "OptionsTableViewController.h"
+#import "CareersTableViewController.h"
 #import "OptionTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
 
-@interface OptionsTableViewController ()
+@implementation CareersTableViewController
 
-@end
-
-
-@implementation OptionsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
     
+    _optionNames = @[@"Banca en Finanzas",@"Contabilidad",@"Ejecutivo para Centro de Servicios",@"Informática Empresarial",
+                     @"Informática en Redes",@"Informática en Soporte",@"Logística y Distribución",@"Secretariado Ejecutivo",
+                     @"Turismo de alimentos y bebidas"];
     
-    _optionNames = @[@"Técnicos Medios",@"Requisitos",@"Contacto",@"Dirección"];
-    
-    _optionImages = @[@"carreras.png",@"requisitos.png",@"contacto.png",@"localizacion.png"];
+    _optionImages = @[@"bancaenfinanzas.png",@"contador.png",@"customerservice.png",@"informaticamepresarial.png",
+                      @"redes.png",@"soportecomputadoras.png",@"logistica.png",@"secretariado.png",@"turismo.png"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -65,13 +62,13 @@
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString * cellIdentifier = @"optionTableCell";
+    static NSString * cellIdentifier = @"careerTableViewCell";
     
     OptionTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     // normalmente se pone row en lugar de section
     long row = [indexPath section];
-
+    
     cell.lblNombre.text = _optionNames[row];
     
     // según el id de la empresa se muestra cierta imagen
@@ -79,8 +76,8 @@
     
     [cell.layer setCornerRadius:35.0f];
     
-
-
+    
+    
     return cell;
 }
 
@@ -96,7 +93,7 @@
     // de acuerdo al elemento seleccionado modificamos el nombre del segue
     switch (index) {
         case 0:
-            viewName = @"careers";
+            viewName = @"tecnicos";
             break;
             
         case 1:
@@ -120,9 +117,10 @@
         [self performSegueWithIdentifier:viewName sender:self];
     }
     
-   
-
+    
+    
     
 }
+
 
 @end

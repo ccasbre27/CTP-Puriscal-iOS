@@ -47,6 +47,7 @@
 		783E076B1C248BC60043D397 /* soportecomputadorasm.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074B1C248BC60043D397 /* soportecomputadorasm.png */; };
 		783E076C1C248BC60043D397 /* turismo.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074C1C248BC60043D397 /* turismo.png */; };
 		783E076D1C248BC60043D397 /* turismom.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074D1C248BC60043D397 /* turismom.png */; };
+		783E07731C25C7300043D397 /* CareersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07721C25C7300043D397 /* CareersTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		783E074B1C248BC60043D397 /* soportecomputadorasm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soportecomputadorasm.png; sourceTree = "<group>"; };
 		783E074C1C248BC60043D397 /* turismo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turismo.png; sourceTree = "<group>"; };
 		783E074D1C248BC60043D397 /* turismom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turismom.png; sourceTree = "<group>"; };
+		783E07711C25C7300043D397 /* CareersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CareersTableViewController.h; sourceTree = "<group>"; };
+		783E07721C25C7300043D397 /* CareersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				783E07251C247EB10043D397 /* OptionsTableViewController.m */,
 				783E07271C247FD00043D397 /* OptionTableViewCell.h */,
 				783E07281C247FD00043D397 /* OptionTableViewCell.m */,
+				783E07711C25C7300043D397 /* CareersTableViewController.h */,
+				783E07721C25C7300043D397 /* CareersTableViewController.m */,
 			);
 			path = "CTP Puriscal";
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				78144FDB1C1CA092007F787A /* AppDelegate.m in Sources */,
 				783E07261C247EB10043D397 /* OptionsTableViewController.m in Sources */,
 				78144FD81C1CA092007F787A /* main.m in Sources */,
+				783E07731C25C7300043D397 /* CareersTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
