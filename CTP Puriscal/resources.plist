@@ -2,20 +2,68 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>bancaenfinanzas</key>
+	<key>bancaenfinanzas</key>
 	<dict>
+        
+		<key>introduction</key>
+		<string>Somos una especialidad técnica que ofrecemos un perfil profesional dando una mejor calidad de vida.</string>
+        
+        <key>requirements</key>
+        <array>
+            <string>Conocimientos básicos de inglés</string>
+            <string>Trabajo en Equipo</string>
+            <string>Liderazgo</string>
+            <string>Motivación</string>
+        </array>
+        
+        <key>profile</key>
+        <array>
+            <string>Utilizan conocimientos en las finanzas y la contabilidad</string>
+            <string>Aplican el análisis financiero en su profesión</string>
+            <string>Toma de decisiones administrativas</string>
+            <string>Trabajo en equipo con habilidad y eficiencia</string>
+            <string>Planea, organiza, dirige y controla su trabajo</string>
+            <string>Con calidad por iniciativa propia o por instrucciones de sus superiores</string>
+        </array>
+        
+        <key>workplace</key>
+        <array>
+            <string>- Bancos</string>
+            <string>- Empresas Financieras</string>
+            <string>- Multinacionales</string>
+            <string>- Empresas Públicas</string>
+            <string>- Negocios Propios</string>
+        </array>
+        
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Finanzas Empresariales</string>
+            <string>- Contabilidad</string>
+            <string>- Matemática Financiera</string>
+            <string>- Tecnología de Información y Comunicación</string>
+            <string>- English for Communication</string>
+        </array>
+        
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Decisiones Financieras</string>
+            <string>- Banca y Mercados Financieros</string>
+            <string>- Plataformas de Servicios</string>
+            <string>- English for Communication</string>
+            <string>- Pasantía.</string>
+        </array>
+
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Banca y Mercados Financieros</string>
+            <string>- Plataformas de Servicios</string>
+            <string>- Legislación y Normativa</string>
+            <string>- English for Communication</string>
+            <string>- Práctica Profesional Supervisad.</string>
+        </array>
+
+	</dict>
     
-	
-	<key>requisitos</key>
-	<array>
-	<string>Conocimientos básicos de inglés</string>
-    <string>Trabajo en Equipo</string>
-    <string>Liderazgo</string>
-    <string>Motivación</string>
-    </array>
-	<key>introduccion</key>
-	<string>Somos una especialidad técnica que ofrecemos un perfil profesional dando una mejor calidad de vida.</string>
-    </dict>
 	<key>OptionImages</key>
 	<array>
 		<string>carreras.png</string>

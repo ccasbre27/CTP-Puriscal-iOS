@@ -20,6 +20,7 @@
     
     NSString * keyName = @"";
     
+    // según el item se carga un diccionario distinto
     switch (_indexSelected)
     {
         case 0:
@@ -36,7 +37,6 @@
         // cargamos los datos
         [self loadDataWithKey:keyName];
     }
-    
     
     
 }
@@ -58,8 +58,40 @@
     // establecemos los valores
     NSDictionary *dictionary = [dict objectForKey:keyName];
     
-    _lblIntroduction.text = [dictionary objectForKey:@"introduccion"];
+    _lblIntroduction.text = [dictionary objectForKey:@"introduction"];
     
+    _lblRequirements.text = [self loadDictionary:[dictionary objectForKey:@"requirements"]];;
+    
+    _lblProfesionalProfile.text = [self loadDictionary:[dictionary objectForKey:@"profile"]];
+    
+    _lblWorkPlace.text = [self loadDictionary:[dictionary objectForKey:@"workplace"]];
+    
+    _lblSubjectsFirstYear.text = [self loadDictionary:[dictionary objectForKey:@"subjectsFirstYear"]];
+    
+    _lblSubjectsSecondYear.text = [self loadDictionary:[dictionary objectForKey:@"subjectsSecondYear"]];
+    
+    _lblSubjectsThirdYear.text = [self loadDictionary:[dictionary objectForKey:@"subjectsThirdYear"]];
+    
+}
+
+- (NSMutableString *) loadDictionary:(NSDictionary *) dictionary
+{
+    // variable para ir concatenando los valores
+    NSMutableString *result = [[NSMutableString alloc] init];
+    
+    // recorremos los requisitos
+    for (NSString *item in dictionary)
+    {
+        // concatenamos el string
+        [result appendString:item];
+        
+        // agregamos un salto de línea
+        [result appendString:@"\n"];
+        
+    }
+    
+    // retornamos el string con los valores separados por salto de línea
+    return result;
 }
 
 /*
