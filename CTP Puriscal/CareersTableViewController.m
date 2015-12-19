@@ -15,19 +15,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     
-    
-    _optionNames = @[@"Banca en Finanzas",@"Contabilidad",@"Ejecutivo para Centro de Servicios",@"Informática Empresarial",
-                     @"Informática en Redes",@"Informática en Soporte",@"Logística y Distribución",@"Secretariado Ejecutivo",
-                     @"Turismo de alimentos y bebidas"];
-    
-    _optionImages = @[@"bancaenfinanzas.png",@"contador.png",@"customerservice.png",@"informaticamepresarial.png",
-                      @"redes.png",@"soportecomputadoras.png",@"logistica.png",@"secretariado.png",@"turismo.png"];
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// método que carga las opciones a mostrar a partir de un property list
+- (void) loadData
+{
+    // obtenemos el path
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"plist"];
+    
+    // cargamos el contenido del archivo
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    
+    // establecemos los valores
+    _optionNames = [dict objectForKey:@"CareerNames"];
+    _optionImages = [dict objectForKey:@"CareerImages"];
+    
 }
 
 
@@ -93,11 +103,11 @@
     // de acuerdo al elemento seleccionado modificamos el nombre del segue
     switch (index) {
         case 0:
-            viewName = @"tecnicos";
+            viewName = @"bancaenfinanzas";
             break;
             
         case 1:
-            viewName = @"vista2";
+            viewName = @"bancaenfinanzas";
             break;
             
         case 2:

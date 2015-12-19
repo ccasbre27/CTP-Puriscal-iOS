@@ -20,17 +20,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
-    
-    
-    _optionNames = @[@"Técnicos Medios",@"Requisitos",@"Contacto",@"Dirección"];
-    
-    _optionImages = @[@"carreras.png",@"requisitos.png",@"contacto.png",@"localizacion.png"];
+    // cargamos los datos
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// método que carga las opciones a mostrar a partir de un property list
+- (void) loadData
+{
+    // obtenemos el path
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"plist"];
+    
+    // cargamos el contenido del archivo
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    
+    // establecemos los valores
+    _optionNames = [dict objectForKey:@"OptionNames"];
+    _optionImages = [dict objectForKey:@"OptionImages"];
+    
 }
 
 

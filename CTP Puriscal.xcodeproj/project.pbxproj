@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		78144FD81C1CA092007F787A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FD71C1CA092007F787A /* main.m */; };
 		78144FDB1C1CA092007F787A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FDA1C1CA092007F787A /* AppDelegate.m */; };
-		78144FE11C1CA092007F787A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78144FDF1C1CA092007F787A /* Main.storyboard */; };
 		78144FE31C1CA092007F787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78144FE21C1CA092007F787A /* Assets.xcassets */; };
 		78144FE61C1CA092007F787A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78144FE41C1CA092007F787A /* LaunchScreen.storyboard */; };
 		78144FF11C1CA092007F787A /* CTP_PuriscalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78144FF01C1CA092007F787A /* CTP_PuriscalTests.m */; };
@@ -48,6 +47,8 @@
 		783E076C1C248BC60043D397 /* turismo.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074C1C248BC60043D397 /* turismo.png */; };
 		783E076D1C248BC60043D397 /* turismom.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E074D1C248BC60043D397 /* turismom.png */; };
 		783E07731C25C7300043D397 /* CareersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07721C25C7300043D397 /* CareersTableViewController.m */; };
+		783E07761C25D2630043D397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E07741C25D2630043D397 /* Main.storyboard */; };
+		783E07781C25D3DF0043D397 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 783E07771C25D3DF0043D397 /* resources.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,6 @@
 		78144FD71C1CA092007F787A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78144FD91C1CA092007F787A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78144FDA1C1CA092007F787A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78144FE01C1CA092007F787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78144FE21C1CA092007F787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78144FE51C1CA092007F787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78144FE71C1CA092007F787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +110,8 @@
 		783E074D1C248BC60043D397 /* turismom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turismom.png; sourceTree = "<group>"; };
 		783E07711C25C7300043D397 /* CareersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CareersTableViewController.h; sourceTree = "<group>"; };
 		783E07721C25C7300043D397 /* CareersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareersTableViewController.m; sourceTree = "<group>"; };
+		783E07751C25D2630043D397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		783E07771C25D3DF0043D397 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				783E07281C247FD00043D397 /* OptionTableViewCell.m */,
 				783E07711C25C7300043D397 /* CareersTableViewController.h */,
 				783E07721C25C7300043D397 /* CareersTableViewController.m */,
+				783E07771C25D3DF0043D397 /* resources.plist */,
 			);
 			path = "CTP Puriscal";
 			sourceTree = "<group>";
@@ -188,7 +191,7 @@
 		78144FFB1C1CA123007F787A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				78144FDF1C1CA092007F787A /* Main.storyboard */,
+				783E07741C25D2630043D397 /* Main.storyboard */,
 				78144FE41C1CA092007F787A /* LaunchScreen.storyboard */,
 			);
 			name = Views;
@@ -334,18 +337,19 @@
 				783E07551C248BC60043D397 /* contador.png in Resources */,
 				783E07621C248BC60043D397 /* logisticam.png in Resources */,
 				783E076B1C248BC60043D397 /* soportecomputadorasm.png in Resources */,
+				783E07761C25D2630043D397 /* Main.storyboard in Resources */,
 				783E075A1C248BC60043D397 /* icomapa.png in Resources */,
 				783E07681C248BC60043D397 /* secretariado.png in Resources */,
 				783E074F1C248BC60043D397 /* bancaenfinanzasm.png in Resources */,
 				783E07561C248BC60043D397 /* contadorm.png in Resources */,
 				78144FE61C1CA092007F787A /* LaunchScreen.storyboard in Resources */,
+				783E07781C25D3DF0043D397 /* resources.plist in Resources */,
 				783E07671C248BC60043D397 /* salvar.png in Resources */,
 				78144FE31C1CA092007F787A /* Assets.xcassets in Resources */,
 				783E075D1C248BC60043D397 /* informaticamepresarial.png in Resources */,
 				783E07641C248BC60043D397 /* redes.png in Resources */,
 				783E07611C248BC60043D397 /* logistica.png in Resources */,
 				783E07501C248BC60043D397 /* basurero.png in Resources */,
-				78144FE11C1CA092007F787A /* Main.storyboard in Resources */,
 				783E07571C248BC60043D397 /* customerservice.png in Resources */,
 				783E07651C248BC60043D397 /* redesm.png in Resources */,
 			);
@@ -392,20 +396,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		78144FDF1C1CA092007F787A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78144FE01C1CA092007F787A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78144FE41C1CA092007F787A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				78144FE51C1CA092007F787A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		783E07741C25D2630043D397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783E07751C25D2630043D397 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

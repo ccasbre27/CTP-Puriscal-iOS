@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OptionImages</key>
+    <array>
+        <string>carreras.png</string>
+        <string>requisitos.png</string>
+        <string>contacto.png</string>
+        <string>localizacion.png</string>
+    </array>
+	<key>OptionNames</key>
+	<array>
+		<string>Técnicos Medios</string>
+		<string>Requisitos</string>
+		<string>Contacto</string>
+		<string>Dirección</string>
+	</array>
+    <key>CareerImages</key>
+    <array>
+        <string>bancaenfinanzas.png</string>
+        <string>contador.png</string>
+        <string>customerservice.png</string>
+        <string>informaticamepresarial.png</string>
+        <string>redes.png</string>
+        <string>soportecomputadoras.png</string>
+        <string>logistica.png</string>
+        <string>secretariado.png</string>
+        <string>turismo.png</string>
+    </array>
+    <key>CareerNames</key>
+    <array>
+        <string>Banca en Finanzas</string>
+        <string>Contabilidad</string>
+        <string>Ejecutivo para Centro de Servicios</string>
+        <string>Informática Empresarial</string>
+        <string>Informática en Redes</string>
+        <string>Informática en Soporte</string>
+        <string>Logística y Distribución</string>
+        <string>Secretariado Ejecutivo</string>
+        <string>Turismo de alimentos y bebidas</string>
+    </array>
+</dict>
+</plist>
