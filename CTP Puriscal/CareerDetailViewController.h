@@ -18,5 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblSubjectsFirstYear;
 @property (weak, nonatomic) IBOutlet UILabel *lblSubjectsSecondYear;
 @property (weak, nonatomic) IBOutlet UILabel *lblSubjectsThirdYear;
+@property (weak, nonatomic) IBOutlet UILabel *lblCareerName;
 
 @end

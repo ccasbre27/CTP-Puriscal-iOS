@@ -39,6 +39,7 @@
     {
         // cargamos los datos
         [self loadDataWithKey:keyName];
+        _lblCareerName.text = keyName;
     }
         
     
