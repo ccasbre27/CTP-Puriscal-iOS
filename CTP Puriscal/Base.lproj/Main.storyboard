@@ -282,18 +282,37 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlO-cZ-UyP">
+                                                <rect key="frame" x="20" y="225" width="560" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="8" symbolic="YES" id="2Sp-AY-Fk8"/>
+                                            <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="5" id="5cF-2O-w8e"/>
                                             <constraint firstItem="WLU-yq-BN8" firstAttribute="top" secondItem="muE-c4-oVS" secondAttribute="bottom" constant="8" symbolic="YES" id="I0y-BG-ViT"/>
+                                            <constraint firstItem="zlO-cZ-UyP" firstAttribute="leading" secondItem="WLU-yq-BN8" secondAttribute="leading" id="OjJ-7a-vnf"/>
+                                            <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="8" symbolic="YES" id="RWG-pZ-aog"/>
                                             <constraint firstItem="muE-c4-oVS" firstAttribute="centerX" secondItem="8dM-Po-1ND" secondAttribute="centerX" id="SfH-eL-JbL"/>
                                             <constraint firstItem="muE-c4-oVS" firstAttribute="centerX" secondItem="WLU-yq-BN8" secondAttribute="centerX" id="XAD-SK-QAE"/>
                                             <constraint firstItem="muE-c4-oVS" firstAttribute="top" secondItem="jOu-Ef-xvv" secondAttribute="bottom" constant="10" id="YCr-Gz-zSb"/>
                                             <constraint firstItem="jOu-Ef-xvv" firstAttribute="top" secondItem="8dM-Po-1ND" secondAttribute="top" constant="20" id="YDU-4V-2pp"/>
                                             <constraint firstItem="jOu-Ef-xvv" firstAttribute="trailing" secondItem="WLU-yq-BN8" secondAttribute="trailing" id="ZJ0-9P-wQS"/>
+                                            <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="5" id="Zzg-kY-Ya2"/>
                                             <constraint firstItem="jOu-Ef-xvv" firstAttribute="leading" secondItem="8dM-Po-1ND" secondAttribute="leading" constant="20" id="qQl-sr-ahQ"/>
+                                            <constraint firstItem="zlO-cZ-UyP" firstAttribute="trailing" secondItem="WLU-yq-BN8" secondAttribute="trailing" id="sqF-zv-wzV"/>
                                             <constraint firstItem="jOu-Ef-xvv" firstAttribute="leading" secondItem="WLU-yq-BN8" secondAttribute="leading" id="yYI-Ac-QTQ"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="5cF-2O-w8e"/>
+                                                <exclude reference="RWG-pZ-aog"/>
+                                                <exclude reference="Zzg-kY-Ya2"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -327,6 +346,9 @@
                             <constraint firstAttribute="trailing" secondItem="zUx-ML-5dr" secondAttribute="trailing" id="dph-lc-j2l"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblIntroduction" destination="zlO-cZ-UyP" id="MTa-P7-sgc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Za-ud-fnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
