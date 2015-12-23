@@ -306,15 +306,35 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil profesional del graduado" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Voa-lm-3aF">
+                                                <rect key="frame" x="20" y="318" width="560" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="560" id="trg-Xx-8Fq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEt-Jr-Xrh">
+                                                <rect key="frame" x="20" y="349" width="560" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="560" id="MaD-Ia-J0j"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="5" id="5cF-2O-w8e"/>
                                             <constraint firstItem="zlO-cZ-UyP" firstAttribute="leading" secondItem="WLU-yq-BN8" secondAttribute="leading" id="73A-AY-ltk"/>
+                                            <constraint firstAttribute="trailing" secondItem="Voa-lm-3aF" secondAttribute="trailing" constant="20" id="Bg0-Q8-lcK"/>
                                             <constraint firstItem="WLU-yq-BN8" firstAttribute="top" secondItem="muE-c4-oVS" secondAttribute="bottom" constant="8" symbolic="YES" id="I0y-BG-ViT"/>
                                             <constraint firstItem="tof-Kt-fhp" firstAttribute="leading" secondItem="8dM-Po-1ND" secondAttribute="leading" constant="20" id="MqM-5h-Wc1"/>
                                             <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="8" symbolic="YES" id="RWG-pZ-aog"/>
                                             <constraint firstItem="muE-c4-oVS" firstAttribute="centerX" secondItem="8dM-Po-1ND" secondAttribute="centerX" id="SfH-eL-JbL"/>
+                                            <constraint firstItem="Voa-lm-3aF" firstAttribute="top" secondItem="tof-Kt-fhp" secondAttribute="bottom" constant="10" id="Wf8-lR-7yY"/>
                                             <constraint firstItem="muE-c4-oVS" firstAttribute="centerX" secondItem="WLU-yq-BN8" secondAttribute="centerX" id="XAD-SK-QAE"/>
                                             <constraint firstAttribute="trailing" secondItem="z7t-9V-5Nr" secondAttribute="trailing" constant="20" id="Xq5-ce-IeZ"/>
                                             <constraint firstItem="muE-c4-oVS" firstAttribute="top" secondItem="jOu-Ef-xvv" secondAttribute="bottom" constant="10" id="YCr-Gz-zSb"/>
@@ -322,6 +342,9 @@
                                             <constraint firstAttribute="trailing" secondItem="tof-Kt-fhp" secondAttribute="trailing" constant="20" id="YbK-CA-LKu"/>
                                             <constraint firstItem="jOu-Ef-xvv" firstAttribute="trailing" secondItem="WLU-yq-BN8" secondAttribute="trailing" id="ZJ0-9P-wQS"/>
                                             <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="5" id="Zzg-kY-Ya2"/>
+                                            <constraint firstItem="VEt-Jr-Xrh" firstAttribute="top" secondItem="Voa-lm-3aF" secondAttribute="bottom" constant="10" id="eIh-YT-DdS"/>
+                                            <constraint firstAttribute="trailing" secondItem="VEt-Jr-Xrh" secondAttribute="trailing" constant="20" id="fce-fP-E95"/>
+                                            <constraint firstItem="Voa-lm-3aF" firstAttribute="leading" secondItem="8dM-Po-1ND" secondAttribute="leading" constant="20" id="h47-XY-7Y4"/>
                                             <constraint firstItem="zlO-cZ-UyP" firstAttribute="trailing" secondItem="WLU-yq-BN8" secondAttribute="trailing" id="hvO-fb-wPa"/>
                                             <constraint firstItem="z7t-9V-5Nr" firstAttribute="top" secondItem="zlO-cZ-UyP" secondAttribute="bottom" constant="10" id="p3B-Jq-nlu"/>
                                             <constraint firstItem="tof-Kt-fhp" firstAttribute="top" secondItem="z7t-9V-5Nr" secondAttribute="bottom" constant="10" id="pj4-Mm-4cx"/>
@@ -329,6 +352,7 @@
                                             <constraint firstItem="z7t-9V-5Nr" firstAttribute="leading" secondItem="8dM-Po-1ND" secondAttribute="leading" constant="20" id="rj2-kG-yOr"/>
                                             <constraint firstItem="zlO-cZ-UyP" firstAttribute="top" secondItem="WLU-yq-BN8" secondAttribute="bottom" constant="8" symbolic="YES" id="sHK-HD-6cj"/>
                                             <constraint firstItem="jOu-Ef-xvv" firstAttribute="leading" secondItem="WLU-yq-BN8" secondAttribute="leading" id="yYI-Ac-QTQ"/>
+                                            <constraint firstItem="VEt-Jr-Xrh" firstAttribute="leading" secondItem="8dM-Po-1ND" secondAttribute="leading" constant="20" id="zeU-OA-6NR"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -342,7 +366,6 @@
                                 <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="8dM-Po-1ND" firstAttribute="leading" secondItem="zUx-ML-5dr" secondAttribute="leading" id="0Jt-ph-xFc"/>
-                                    <constraint firstAttribute="width" constant="600" id="1cB-bv-t0F"/>
                                     <constraint firstItem="8dM-Po-1ND" firstAttribute="width" secondItem="zUx-ML-5dr" secondAttribute="width" id="30d-HT-whM"/>
                                     <constraint firstItem="8dM-Po-1ND" firstAttribute="top" secondItem="zUx-ML-5dr" secondAttribute="top" id="3SG-bn-pJz"/>
                                     <constraint firstAttribute="bottom" secondItem="8dM-Po-1ND" secondAttribute="bottom" id="4hu-na-2pe"/>
@@ -356,22 +379,20 @@
                                     <constraint firstItem="8dM-Po-1ND" firstAttribute="width" secondItem="zUx-ML-5dr" secondAttribute="width" id="cEs-v5-vR6"/>
                                     <constraint firstAttribute="trailing" secondItem="8dM-Po-1ND" secondAttribute="trailing" id="zPv-Ki-89u"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="1cB-bv-t0F"/>
-                                    </mask>
-                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="zUx-ML-5dr" firstAttribute="top" secondItem="CKq-CL-Kpx" secondAttribute="topMargin" id="APc-RN-A1Q"/>
+                            <constraint firstItem="zUx-ML-5dr" firstAttribute="width" secondItem="CKq-CL-Kpx" secondAttribute="width" id="H4S-jO-UuF"/>
+                            <constraint firstItem="zUx-ML-5dr" firstAttribute="height" secondItem="CKq-CL-Kpx" secondAttribute="height" id="J1o-bU-b0U"/>
                             <constraint firstItem="zUx-ML-5dr" firstAttribute="leading" secondItem="CKq-CL-Kpx" secondAttribute="leading" id="W6Q-HU-JtD"/>
                             <constraint firstAttribute="trailing" secondItem="zUx-ML-5dr" secondAttribute="trailing" id="dph-lc-j2l"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="lblIntroduction" destination="zlO-cZ-UyP" id="MTa-P7-sgc"/>
+                        <outlet property="lblProfesionalProfile" destination="VEt-Jr-Xrh" id="ERM-1u-kab"/>
                         <outlet property="lblRequirements" destination="tof-Kt-fhp" id="d4D-D3-E51"/>
                     </connections>
                 </viewController>
