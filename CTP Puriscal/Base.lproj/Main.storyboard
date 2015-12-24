@@ -493,6 +493,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imgCareer" destination="Uno-aA-nEx" id="n3r-j8-7w4"/>
                         <outlet property="lblCareerName" destination="UPJ-C8-3oH" id="TKn-LW-Z7M"/>
                         <outlet property="lblIntroduction" destination="vn1-1G-WlC" id="37j-kG-hiY"/>
                         <outlet property="lblProfesionalProfile" destination="wjz-h3-bV3" id="989-dU-re9"/>

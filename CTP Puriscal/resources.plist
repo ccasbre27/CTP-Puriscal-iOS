@@ -2,68 +2,511 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
 	<key>bancaenfinanzas</key>
 	<dict>
-        
 		<key>introduction</key>
 		<string>Somos una especialidad técnica que ofrecemos un perfil profesional dando una mejor calidad de vida.</string>
-        
+		<key>requirements</key>
+		<array>
+			<string>Conocimientos básicos de inglés</string>
+			<string>Trabajo en Equipo</string>
+			<string>Liderazgo</string>
+			<string>Motivación</string>
+		</array>
+		<key>profile</key>
+		<array>
+			<string>Utilizan conocimientos en las finanzas y la contabilidad</string>
+			<string>Aplican el análisis financiero en su profesión</string>
+			<string>Toma de decisiones administrativas</string>
+			<string>Trabajo en equipo con habilidad y eficiencia</string>
+			<string>Planea, organiza, dirige y controla su trabajo</string>
+			<string>Con calidad por iniciativa propia o por instrucciones de sus superiores</string>
+		</array>
+		<key>workplace</key>
+		<array>
+			<string>- Bancos</string>
+			<string>- Empresas Financieras</string>
+			<string>- Multinacionales</string>
+			<string>- Empresas Públicas</string>
+			<string>- Negocios Propios</string>
+		</array>
+		<key>subjectsFirstYear</key>
+		<array>
+			<string>- Finanzas Empresariales</string>
+			<string>- Contabilidad</string>
+			<string>- Matemática Financiera</string>
+			<string>- Tecnología de Información y Comunicación</string>
+			<string>- English for Communication</string>
+		</array>
+		<key>subjectsSecondYear</key>
+		<array>
+			<string>- Decisiones Financieras</string>
+			<string>- Banca y Mercados Financieros</string>
+			<string>- Plataformas de Servicios</string>
+			<string>- English for Communication</string>
+			<string>- Pasantía.</string>
+		</array>
+		<key>subjectsThirdYear</key>
+		<array>
+			<string>- Banca y Mercados Financieros</string>
+			<string>- Plataformas de Servicios</string>
+			<string>- Legislación y Normativa</string>
+			<string>- English for Communication</string>
+			<string>- Práctica Profesional Supervisad.</string>
+		</array>
+	</dict>
+    
+    <key>contabilidad</key>
+    <dict>
+        <key>introduction</key>
+        <string>Somos una especialidad técnica que ofrecemos además de un perfil profesional, un ambiente agradable de trabajo en equipo con gran calidad humana.</string>
         <key>requirements</key>
         <array>
-            <string>Conocimientos básicos de inglés</string>
-            <string>Trabajo en Equipo</string>
-            <string>Liderazgo</string>
-            <string>Motivación</string>
+            <string>· Actitud Positiva.</string>
+            <string>· Trabajo en Equipo.</string>
+            <string>· Integridad, todo Contador se destaca por su honradez.</string>
+            <string>· Disciplina y aspiraciones, la persona que desee surgir y cumplir todos sus propósitos.</string>
+            <string>· Habilidad para Expresarse.</string>
+            <string>· Capacidad para detectar y analizar problemas.</string>
         </array>
-        
         <key>profile</key>
         <array>
-            <string>Utilizan conocimientos en las finanzas y la contabilidad</string>
-            <string>Aplican el análisis financiero en su profesión</string>
-            <string>Toma de decisiones administrativas</string>
-            <string>Trabajo en equipo con habilidad y eficiencia</string>
-            <string>Planea, organiza, dirige y controla su trabajo</string>
-            <string>Con calidad por iniciativa propia o por instrucciones de sus superiores</string>
+            <string>Diagnosticar, fundamentar, sugerir y tomar decisiones administrativas, contables y financieras.</string>
+            <string>Actuar con independencia mental.</string>
+            <string>Registrar el origen y aplicación de los recursos de una transacción.</string>
+            <string>Trabajo en equipo de manera disciplinada, habilidad y eficiencia.</string>
+            <string>Aplica normas de salud ocupacional y ética profesional.</string>
+            <string>Compromiso y responsabilidad.</string>
+            <string>Visión de objetivos y estrategias de una organización.</string>
+            <string>Aplicacion de las N.I.C. (Normas Internacionales de Contabilidad).</string>
+            
         </array>
-        
         <key>workplace</key>
         <array>
-            <string>- Bancos</string>
-            <string>- Empresas Financieras</string>
-            <string>- Multinacionales</string>
-            <string>- Empresas Públicas</string>
-            <string>- Negocios Propios</string>
+            <string>- Autónomo (Trabajar por cuenta propia).</string>
+            <string>- Sector Público.</string>
+            <string>- Sector Privado.</string>
+            <string>- Docencia.</string>
+            <string>- Entre Otros.</string>
         </array>
-        
         <key>subjectsFirstYear</key>
         <array>
-            <string>- Finanzas Empresariales</string>
-            <string>- Contabilidad</string>
+            <string>- Tecnología Aplicada a la Contabilidad.</string>
+            <string>- Administración de Organizaciones Modernas.</string>
             <string>- Matemática Financiera</string>
-            <string>- Tecnología de Información y Comunicación</string>
             <string>- English for Communication</string>
         </array>
-        
         <key>subjectsSecondYear</key>
         <array>
-            <string>- Decisiones Financieras</string>
-            <string>- Banca y Mercados Financieros</string>
-            <string>- Plataformas de Servicios</string>
+            <string>- Contabilidad</string>
+            <string>- Gestión Empresarial</string>
+            <string>- Normativa Legal Contable.</string>
+            <string>- Contabilidad de Costos.</string>
             <string>- English for Communication</string>
             <string>- Pasantía.</string>
         </array>
-
         <key>subjectsThirdYear</key>
         <array>
-            <string>- Banca y Mercados Financieros</string>
-            <string>- Plataformas de Servicios</string>
-            <string>- Legislación y Normativa</string>
+            <string>- Contabilidad</string>
+            <string>- Gestión Empresarial</string>
+            <string>- Princípios de Auditoría y Control Interno.</string>
+            <string>- Presupueso y Estadística.</string>
             <string>- English for Communication</string>
             <string>- Práctica Profesional Supervisad.</string>
         </array>
-
-	</dict>
+    </dict>
     
+    <key>ejecutivo</key>
+    <dict>
+        <key>introduction</key>
+        <string>
+            Somos una especialidad técnica que te ofrece además de un perfil profesional, un ambiente agradable con calidad humana.
+        </string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva.</string>
+            <string>· Conocimientos básicos de idioma inglés.</string>
+            <string>· Habilidades básicas en el manejo de la computadora y los paquetes de cómputo actualizados.</string>
+            <string>· Facilidad para comunicarse en forma efectiva.</string>
+            <string>· Trabajo en Equipo.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            
+            <string>- Utiliza al máximo los adelantos tecnológicos para el desarrollo de su labor.</string>
+            <string>- Aplica las normas ocupacionales y éticas en el desarrollo de su profesión.</string>
+            <string>- Toma de decisiones acertadas y oportunas en el proceso administrtivo.</string>
+            <string>- Trabaja en equipo con habilidad y eficiencia.</string>
+            <string>- Aplica los conocimientos del idioma inglés como su segunda lengua, en el desarrollo de su profesión.</string>
+            <string>- Adapta su personalidad a las distintas situaciones laborales generadas por los continuos cambios en las técnicas, organización laboral y demás aspectos relacionados con la profesión.</string>
+            <string>- Planea, organiza y ejecuta su trabajo con caludad por iniciativa propia o por instrucciones de superiores.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Plataforma de Servicios (Bancos, Empresas Multinacionales).</string>
+            <string>- Sector Público.</string>
+            <string>- Sector Privado.</string>
+            <string>- Empresas del Sector Turístico.</string>
+            <string>- Call Center.</string>
+            <string>- Empresa Propia</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Gestión Empresarial.</string>
+            <string>- Destrezas Computacionales.</string>
+            <string>- Oral Communication in English.</string>
+            <string>- Written Communication in English.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Comunicación Empresarial.</string>
+            <string>- Destrezas Computacionales.</string>
+            <string>- Oral Communication in English.</string>
+            <string>- Administración para Centros de Servicios.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Comunicación Empresarial.</string>
+            <string>- Destrezas Computacionales.</string>
+            <string>- Translation and Interpreting.</string>
+            <string>- Administración para Centros de Servicios.</string>
+            <string>- Oral Communication in English.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+    
+    <key>infoempresarial</key>
+    <dict>
+        <key>introduction</key>
+        <string>
+            La especialidad de Informática Empresarial te introduce en un mundo en el cual usted podrá conocer
+            y dominar el mundo de la Informática iniciandote con el conocimiento de los principales avances tecnológicos, además te llevara
+            dentro del mundo de la programación, Interfaces Gráficas, Tecnologías de Información y Comunicación, Sistemas Operativos así como
+            el conocimiento de los sistemas de redes de computadoras, sin olvidar que el aprendizaje del inglés es un punto importante en el actual ambiente laboral.
+            Es así como nuestra especialidad pretende permitir que el estudiante conozca las características, principios y desempeño de un mundo tan complejo como lo es la infromática.
+        </string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva.</string>
+            <string>· Trabajo en Equipo.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            
+            <string>El Técnico Medio en Informática Empresarial es muy cotizado en la actualidad y la mayoría de las empresas está requiriendolo.
+                Por ello nuestro cuadro curricular responde a las necesidades del mercado laboral, que se detentan año con año.
+                Nuestros egresados son apreciado por empresas y logran encontrar trabajo sin mayor problema, por lo que puede insertarse al mercado laboral rápidamente.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Empresa propia.</string>
+            <string>- Empresa con área en desarrollo de Software.</string>
+            <string>- Empresa con área de Mantenimiento de Equipos y Redes de computadoras.</string>
+            <string>- Puesto Administrativo.</string>
+            <string>- Soporte de Aplicaciones.</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Mantenimiento de Equipo de Cómputo.</string>
+            <string>- Tecnologías de Información y Comunicación.</string>
+            <string>- Programación.</string>
+            <string>- Entorno Administrativo Informático.</string>
+            <string>- English for Communication.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Mantenimiento de Equipo de Cómputo.</string>
+            <string>- Interfaces Gráficas de Usuario.</string>
+            <string>- Programación.</string>
+            <string>- Entorno Administrativo Informático.</string>
+            <string>- English for Communication.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Redes de Computadoras.</string>
+            <string>- Sistemas Operativos.</string>
+            <string>- Entorno Administrativo Informático.</string>
+            <string>- English for Communication.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+    
+    <key>inforedes</key>
+    <dict>
+        <key>introduction</key>
+        <string>
+            La especialidad de Informática en Redes te introduce en un mundo en el cual usted podrá conocer
+            y dominar el mundo de la Informática iniciandote con el conocimiento de los principales avances tecnológicos, además te llevara
+            dentro del mundo de la programación, Interfaces Gráficas, Tecnologías de Información y Comunicación, Sistemas Operativos así como
+            el conocimiento de los sistemas de redes de computadoras, sin olvidar que el aprendizaje del inglés es un punto importante en el actual ambiente laboral.
+            Es así como nuestra especialidad pretende permitir que el estudiante conozca las características, principios y desempeño de un mundo tan complejo como lo es la infromática.
+        </string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva.</string>
+            <string>· Trabajo en Equipo.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            
+            <string>El Técnico Medio en Informática en Redes es muy cotizado en la actualidad y la mayoría de las empresas está requiriendolo.
+                Por ello nuestro cuadro curricular responde a las necesidades del mercado laboral, que se detentan año con año.
+                Nuestros egresados son apreciado por empresas y logran encontrar trabajo sin mayor problema, por lo que puede insertarse al mercado laboral rápidamente.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Empresa propia.</string>
+            <string>- Empresa con área en desarrollo de Software.</string>
+            <string>- Empresa con área de Mantenimiento de Equipos y Redes de computadoras.</string>
+            <string>- Puesto Administrativo.</string>
+            <string>- Soporte de Aplicaciones.</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Mantenimiento de Equipo de Cómputo.</string>
+            <string>- Tecnologías de Información y Comunicación.</string>
+            <string>- Programación.</string>
+            <string>- Entorno Administrativo Informático.</string>
+            <string>- English for Communication.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Manipulación de Información.</string>
+            <string>- Redes de Computadoras.</string>
+            <string>- English for Communication.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Redes de Computadoras.</string>
+            <string>- Sistemas Operativos de Red.</string>
+            <string>- English for Communication.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+    
+    <key>infosoporte</key>
+    <dict>
+        <key>introduction</key>
+        <string>
+            La especialidad de informática en soporte te introduce a un mundo en el cual usted podrá conocer y dominar
+            el mundo de la informática inciandote con el conocimiento de los principales avances tecnológicas
+            , además te llevara dentro del mundo de la programación, así como el conocimiento necesario para manipular la información
+            electrónica, la elaboración y manetenimiento de los sistemas de redes de computadoras
+            , sin olvidar que el aprendizaje de inglés es un punto importante en el actual ambiente laboral.
+            Es así como nuestra especialidad pretende permitir que el estudiante conozca las características, principios y desempeño de un mundo
+            tan complejo como lo es la informática.
+        </string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva.</string>
+            <string>· Trabajo en Equipo.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            
+            <string>El Técnico Medio en Soporte es muy cotizado por las empresas.
+                Nuestro egresado sale con competencias sólidas para enfrentar las necesidades del mercado
+                laboral, ocupando puestos de mantenimiento de Hardware, Software, Redes y Programación.
+                Nuestro egresado está en capacidad de iniciarse como emprendedor, creando su microempresa para brindar
+                para brindar servicios del ramo a la comunidad como en cualquier parte del territorio Nacional.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Empresa propia.</string>
+            <string>- Sector Público.</string>
+            <string>- Sector Privado.</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Mantenimiento de Equipo de Cómputo.</string>
+            <string>- Tecnologías de Informción y Comunicación.</string>
+            <string>- Introducción a la Programación.</string>
+            <string>- English for Communication.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Mantenimiento de Equipo de Cómputo.</string>
+            <string>- Fundamentos de Electricidad y Electrónica.</string>
+            <string>- Manipulación de la Información.</string>
+            <string>- English for Communication.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Mantenimiento de Equipo de Cómputo.</string>
+            <string>- Redes de Computadoras.</string>
+            <string>- Sistemas Operativos.</string>
+            <string>- English for Communication.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+    
+    <key>logistica</key>
+    <dict>
+        <key>introduction</key>
+        <string>En los últimos años el país ha experimentado importantes cambios en el sistema productivo,  siendo la industria y los servicios los principales motores de la economía nacional y siendo además los sectores mayor empleadores en  ingenierías y ciencias de la administración.
+            Administración Logística y Distribución es la especialidad técnica que se encarga del control, manejo, optimización, y mejoramiento de la red logística o cadena de suministros en la que están inmersas las organizaciones. Esto lo logra combinando y sirviendo como auxiliar de las carreras de Ingeniería Industrial y Administración de Aduanas.</string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva.</string>
+            <string>· Trabajo en Equipo.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            <string>El estudiante y profesional en Administración Logística y Distribución, es una persona analítica, crítica, responsable y con interés por el mejoramiento de los procesos que interactúan dentro de las organizaciones y en el mundo.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Asistente de logística.</string>
+            <string>- Administrador de operaciones.</string>
+            <string>- Comprador junior.</string>
+            <string>- Analista de inventarios.</string>
+            <string>- Asistente de proyectos.</string>
+            <string>- Supervisor de producción.</string>
+            <string>- Asistente de calidad.</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Compras.</string>
+            <string>- Importaciones y Exportaciones.</string>
+            <string>- Logística.</string>
+            <string>- English for Communication.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Administración de Inventarios.</string>
+            <string>- Operaciones de Manufactura.</string>
+            <string>- Logística.</string>
+            <string>- English for Communication.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Importaciones y Exportaciones.</string>
+            <string>- Operaciones de Manufactura.</string>
+            <string>- Logística.</string>
+            <string>- English for Communication.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+    
+    <key>secretariado</key>
+    <dict>
+        <key>introduction</key>
+        <string>Somos una especialidad técnica que te ofrece además de un perfil profesional, un ambiente agradable con calidad humana.</string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva ante el cambio.</string>
+            <string>· Conocimientos básicos de idioma inglés.</string>
+            <string>· Habilidades básicas en el manejo de la computadora y los paquetes de cómputo actualizados.</string>
+            <string>· Facilidad para comunicarse en forma efectiva.</string>
+            <string>· Trabajo en Equipo.</string>
+            <string>· Incorporar la educación en valores en vivencia cotidiana.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            <string>- Utiliza al máximo los adelantos tecnológicos para el desarrollo de su labor.</string>
+            <string>- Toma de decisiones acertadas y oportunas en el proceso administrtivo.</string>
+            <string>- Trabaja en equipo con habilidad y eficiencia.</string>
+            <string>- Adapta su personalidad a las distintas situaciones laborales generadas por los continuos cambios en las técnicas, organización laboral y demás aspectos relacionados con la profesión secretariado.</string>
+            <string>- Planea, organiza y ejecuta su trabajo con caludad por iniciativa propia o por instrucciones de superiores.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Plataforma de Servicios (Bancos, Empresas Multinacionales).</string>
+            <string>- Sector Público.</string>
+            <string>- Sector Privado.</string>
+            <string>- Empresa Propia</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Gestión Empresarial.</string>
+            <string>- Destrezas Computacionales.</string>
+            <string>- Comunicación Empresarial.</string>
+            <string>- English for Communication.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Gestión Empresarial.</string>
+            <string>- Destrezas Computacionales.</string>
+            <string>- Comunicación Empresarial y Administración de Documentos.</string>
+            <string>- English for Communication.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Gestión Empresarial.</string>
+            <string>- Destrezas Computacionales.</string>
+            <string>- Comunicación Empresarial.</string>
+            <string>- English for Communication.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+    
+    <key>turismo</key>
+    <dict>
+        <key>introduction</key>
+        <string>Actualmente la actividad turística representa para Costa Rica una fuente importante de divisas, especialmente si se considera el deterioro que han sufrido las fuentes tradicionales de ingresos.  El elevado crecimiento del sector turismo, representa uno de los cambios estructurales que ha experimentado la economía costarricense en los últimos años.  Entre las actividades productivas favorecidas con la apertura comercial y la política de promoción de exportaciones, esta actividad ha demostrado un mejor desempeño económico.
+        </string>
+        <key>requirements</key>
+        <array>
+            <string>· Actitud Positiva ante el cambio.</string>
+            <string>· Conocimientos básicos de idioma inglés.</string>
+            <string>· Habilidades básicas en el manejo de la computadora y los paquetes de cómputo actualizados.</string>
+            <string>· Facilidad para comunicarse en forma efectiva.</string>
+            <string>· Trabajo en Equipo.</string>
+        </array>
+        <key>profile</key>
+        <array>
+            <string>- Interpreta información técnica relacionada con la especialidad.</string>
+            <string>- Elabora y evalúa proyectos de la especialidad.</string>
+            <string>- Trabaja en equipo con habilidad y eficiencia.</string>
+            <string>- Aplica normas de Salud Ocupacional.</string>
+            <string>- Utiliza la computadora como herramienta en las tareas propias de la especialidad.</string>
+            
+        </array>
+        <key>workplace</key>
+        <array>
+            <string>- Empresas del sector turístico en alimentos y bebidas.</string>
+            <string>- Sector Público.</string>
+            <string>- Sector Privado.</string>
+        </array>
+        <key>subjectsFirstYear</key>
+        <array>
+            <string>- Empresa turística.</string>
+            <string>- Introducción turística.</string>
+            <string>- Control interno y limpieza de cocina.</string>
+            <string>- English for Communication.</string>
+        </array>
+        <key>subjectsSecondYear</key>
+        <array>
+            <string>- Empresa turística.</string>
+            <string>- Cocina básica.</string>
+            <string>- Bar y restaurante.</string>
+            <string>- English for Communication.</string>
+            <string>- Pasantía.</string>
+        </array>
+        <key>subjectsThirdYear</key>
+        <array>
+            <string>- Cocina fusión.</string>
+            <string>- Cocina Internacional.</string>
+            <string>- English for Communication.</string>
+            <string>- Práctica Profesional Supervisada.</string>
+        </array>
+    </dict>
+
+
+
 	<key>OptionImages</key>
 	<array>
 		<string>carreras.png</string>
@@ -90,6 +533,18 @@
 		<string>secretariado.png</string>
 		<string>turismo.png</string>
 	</array>
+    <key>CareerAlternativeImages</key>
+    <array>
+        <string>bancaenfinanzasm.png</string>
+        <string>contadorm.png</string>
+        <string>customerservicem.png</string>
+        <string>informaticamepresarialm.png</string>
+        <string>redesm.png</string>
+        <string>soportecomputadorasm.png</string>
+        <string>logisticam.png</string>
+        <string>secretariadom.png</string>
+        <string>turismom.png</string>
+    </array>
 	<key>CareerNames</key>
 	<array>
 		<string>Banca en Finanzas</string>

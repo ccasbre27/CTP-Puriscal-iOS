@@ -30,6 +30,38 @@
             keyName = @"bancaenfinanzas";
             break;
             
+        case 1:
+            keyName = @"contabilidad";
+            break;
+            
+        case 2:
+            keyName = @"ejecutivo";
+            break;
+            
+        case 3:
+            keyName = @"infoempresarial";
+            break;
+            
+        case 4:
+            keyName = @"inforedes";
+            break;
+            
+        case 5:
+            keyName = @"infosoporte";
+            break;
+            
+        case 6:
+            keyName = @"logistica";
+            break;
+            
+        case 7:
+            keyName = @"secretariado";
+            break;
+            
+        case 8:
+            keyName = @"turismo";
+            break;
+            
         default:
             break;
     }
@@ -57,11 +89,18 @@
     // cargamos el contenido del archivo
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     
-    // cargamos el array
+    // cargamos el array de nombres
     NSArray *careerNames = [dict objectForKey:@"CareerNames"];
     
     // establecemos el título de la carrera de acuerdo al elemento que se encuentra en una posición
     _lblCareerName.text = [careerNames objectAtIndex:_indexSelected];
+    
+    // cargamos el array de imágenes
+    NSArray *careerImages = [dict objectForKey:@"CareerAlternativeImages"];
+    
+    // establecemos el título de la carrera de acuerdo al elemento que se encuentra en una posición
+    _imgCareer.image = [UIImage imageNamed:[careerImages objectAtIndex:_indexSelected]];
+
     
     // establecemos los valores
     NSDictionary *dictionary = [dict objectForKey:keyName];

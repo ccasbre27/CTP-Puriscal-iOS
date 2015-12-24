@@ -19,5 +19,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblSubjectsSecondYear;
 @property (weak, nonatomic) IBOutlet UILabel *lblSubjectsThirdYear;
 @property (weak, nonatomic) IBOutlet UILabel *lblCareerName;
+@property (weak, nonatomic) IBOutlet UIImageView *imgCareer;
 
 @end
