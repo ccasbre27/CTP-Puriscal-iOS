@@ -62,7 +62,8 @@
     // establecemos los valores
     NSDictionary *dictionary = [dict objectForKey:keyName];
     
-    _lblIntroduction.text = [dictionary objectForKey:@"introduction"];
+    //_lblIntroduction.text = [dictionary objectForKey:@"introduction"];
+    _lblIntroduction.text = @"Bacon ipsum dolor amet biltong short loin flank, chicken tongue corned beef shankle kevin meatloaf hamburger andouille spare ribs bresaola beef ribs landjaeger. Beef ribs ribeye biltong, turducken pig brisket shankle filet mignon short ribs. Chicken flank ribeye turkey tail. Picanha landjaeger fatback, sausage cupim prosciutto meatloaf filet mignon boudin pastrami spare ribs pork loin pancetta pork chop ham. Corned beef shoulder fatback, rump ribeye kevin pork chop andouille pastrami meatloaf pig capicola. Pork venison fatback, corned beef beef ribs spare ribs bresaola chuck turkey salami porchetta landjaeger. Brisket beef ribs picanha pork.Prosciutto cow flank, venison kielbasa ball tip andouille chuck sirloin tenderloin fatback. Cupim andouille strip steak turkey cow ham shankle picanha. Ball tip short ribs ribeye cupim pig, capicola pastrami sausage bresaola pork belly landjaeger beef ribs swine jerky shankle. Kevin tenderloin sausage flank shank brisket. Tongue jerky landjaeger sausage, prosciutto swine beef ball tip pork chop alcatra ribeye. Ham hock rump chuck, fatback shank cupim tongue landjaeger pastrami shoulder kevin frankfurter leberkas. Tri-tip rump pancetta ribeye, shank brisket boudin short ribs meatloaf jowl porchetta venison.";
     
     _lblRequirements.text = [self loadDictionary:[dictionary objectForKey:@"requirements"]];;
     
