@@ -99,7 +99,7 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+{    
     [self performSegueWithIdentifier:@"careerDetail" sender:self];
 }
 

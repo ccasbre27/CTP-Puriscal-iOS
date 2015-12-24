@@ -110,7 +110,6 @@
                                 <connections>
                                     <outlet property="imgIcono" destination="ddL-YF-RSA" id="19v-nW-cuE"/>
                                     <outlet property="lblNombre" destination="3ug-14-fYW" id="0eh-8b-vEr"/>
-                                    <segue destination="zRx-Mt-DSE" kind="show" identifier="careers" trigger="accessoryAction" id="Qod-n9-9w5"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -121,12 +120,14 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="gIJ-cq-r5n"/>
                     <connections>
-                        <segue destination="H0Y-hd-YNi" kind="show" identifier="vista2" id="ilY-XS-8dq"/>
+                        <segue destination="53D-A1-StV" kind="show" identifier="requirements" id="FMY-MY-qF7"/>
+                        <segue destination="zRx-Mt-DSE" kind="show" identifier="careers" id="pJk-7U-CYy"/>
+                        <segue destination="H0Y-hd-YNi" kind="show" identifier="vista2" id="7NQ-7k-fn7"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5R-st-0ba" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661" y="211"/>
+            <point key="canvasLocation" x="609" y="177"/>
         </scene>
         <!--Carreras Técnicas-->
         <scene sceneID="1Dy-fS-bqc">
@@ -243,7 +244,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJr-Ah-kdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1497" y="-321"/>
+            <point key="canvasLocation" x="1401" y="-573"/>
         </scene>
         <!--Career Detail View Controller-->
         <scene sceneID="UtS-9h-I17">
@@ -506,7 +507,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Za-ud-fnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2266" y="-308"/>
+            <point key="canvasLocation" x="2214" y="-573"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K8f-3j-TnB">
+            <objects>
+                <viewController id="53D-A1-StV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K3B-SU-Ljz"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Ls-DP-YZv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zeh-l0-8Ay">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoM-aC-MUo">
+                                <rect key="frame" x="20" y="239" width="560" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="DuJ-ui-W5d"/>
+                                </constraints>
+                                <string key="text">· Fotocopia cédula de identidad.
+· Póliza estudiantil.
+· Original y copia de título de bachiller o nota de quinto año aprobado.
+· Llenar boleta de matrícula.
+· Cancelar cuota voluntaria de matrícula.
+· Adquirir cuaderno de comunicaciones y normativa de la institución .</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.33725490196078434" green="0.12941176470588234" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaP-yI-prr">
+                                <rect key="frame" x="20" y="210" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="ciz-Xd-lQv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.55686274509803924" green="0.47450980392156861" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DaP-yI-prr" firstAttribute="trailing" secondItem="zeh-l0-8Ay" secondAttribute="trailingMargin" id="A3E-eJ-cxQ"/>
+                            <constraint firstItem="BoM-aC-MUo" firstAttribute="leading" secondItem="zeh-l0-8Ay" secondAttribute="leadingMargin" id="G53-yl-RqU"/>
+                            <constraint firstItem="BoM-aC-MUo" firstAttribute="top" secondItem="DaP-yI-prr" secondAttribute="bottom" constant="8" symbolic="YES" id="JiM-N2-Sx2"/>
+                            <constraint firstItem="DaP-yI-prr" firstAttribute="leading" secondItem="zeh-l0-8Ay" secondAttribute="leadingMargin" id="dXb-tL-J21"/>
+                            <constraint firstItem="2Ls-DP-YZv" firstAttribute="top" secondItem="BoM-aC-MUo" secondAttribute="bottom" constant="239" id="lJQ-vo-erx"/>
+                            <constraint firstItem="BoM-aC-MUo" firstAttribute="trailing" secondItem="zeh-l0-8Ay" secondAttribute="trailingMargin" id="xmm-ql-aaZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qmh-nl-Fbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1750" y="164"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="g7c-yI-JPh">
@@ -532,7 +585,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GpS-fc-tRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1471" y="569"/>
+            <point key="canvasLocation" x="928" y="970"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8jM-ge-5sK">

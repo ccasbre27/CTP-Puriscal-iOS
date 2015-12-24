@@ -99,7 +99,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // obtenemos el índice del elemento que se seleccionó
-    NSInteger index = indexPath.row;
+    NSInteger index = indexPath.section;
     
     // variable que indica cuál vista debe abrir
     NSString * viewName = @"";
@@ -111,7 +111,7 @@
             break;
             
         case 1:
-            viewName = @"vista2";
+            viewName = @"requirements";
             break;
             
         case 2:
