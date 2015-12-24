@@ -50,6 +50,8 @@
 		783E07761C25D2630043D397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E07741C25D2630043D397 /* Main.storyboard */; };
 		783E07781C25D3DF0043D397 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 783E07771C25D3DF0043D397 /* resources.plist */; };
 		7887B36E1C25F35400FB16E8 /* CareerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */; };
+		78C820681C2BA8FF007FC354 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C820671C2BA8FF007FC354 /* ContactTableViewCell.m */; };
+		78C8206B1C2BAA67007FC354 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C8206A1C2BAA67007FC354 /* ContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,10 @@
 		783E07771C25D3DF0043D397 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
 		7887B36C1C25F35400FB16E8 /* CareerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CareerDetailViewController.h; sourceTree = "<group>"; };
 		7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareerDetailViewController.m; sourceTree = "<group>"; };
+		78C820661C2BA8FF007FC354 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		78C820671C2BA8FF007FC354 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		78C820691C2BAA67007FC354 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		78C8206A1C2BAA67007FC354 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +178,10 @@
 				783E07771C25D3DF0043D397 /* resources.plist */,
 				7887B36C1C25F35400FB16E8 /* CareerDetailViewController.h */,
 				7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */,
+				78C820661C2BA8FF007FC354 /* ContactTableViewCell.h */,
+				78C820671C2BA8FF007FC354 /* ContactTableViewCell.m */,
+				78C820691C2BAA67007FC354 /* ContactViewController.h */,
+				78C8206A1C2BAA67007FC354 /* ContactViewController.m */,
 			);
 			path = "CTP Puriscal";
 			sourceTree = "<group>";
@@ -376,8 +386,10 @@
 			files = (
 				783E07291C247FD00043D397 /* OptionTableViewCell.m in Sources */,
 				7887B36E1C25F35400FB16E8 /* CareerDetailViewController.m in Sources */,
+				78C820681C2BA8FF007FC354 /* ContactTableViewCell.m in Sources */,
 				78144FDB1C1CA092007F787A /* AppDelegate.m in Sources */,
 				783E07261C247EB10043D397 /* OptionsTableViewController.m in Sources */,
+				78C8206B1C2BAA67007FC354 /* ContactViewController.m in Sources */,
 				78144FD81C1CA092007F787A /* main.m in Sources */,
 				783E07731C25C7300043D397 /* CareersTableViewController.m in Sources */,
 			);

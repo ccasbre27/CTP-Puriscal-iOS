@@ -1,21 +1,19 @@
 //
-//  OptionsTableViewController.m
+//  ContactViewController.m
 //  CTP Puriscal
 //
-//  Created by user on 12/18/15.
+//  Created by user on 12/23/15.
 //  Copyright © 2015 user. All rights reserved.
 //
 
-#import "OptionsTableViewController.h"
-#import "OptionTableViewCell.h"
-#import <QuartzCore/QuartzCore.h>
+#import "ContactViewController.h"
+#import "ContactTableViewCell.h"
 
-@interface OptionsTableViewController ()
+@interface ContactViewController ()
 
 @end
 
-
-@implementation OptionsTableViewController
+@implementation ContactViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,15 +30,13 @@
 // método que carga las opciones a mostrar a partir de un property list
 - (void) loadData
 {
-    // obtenemos el path
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"plist"];
-    
-    // cargamos el contenido del archivo
-    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     
     // establecemos los valores
-    _optionNames = [dict objectForKey:@"OptionNames"];
-    _optionImages = [dict objectForKey:@"OptionImages"];
+    _optionNames = [NSArray arrayWithObjects:@"Teléfono",@"Correo electrónico",@"Dirección",nil];
+    _optionDetail = [NSArray arrayWithObjects:@"2416-84-44",@"tecnicanocturnapuriscal@gmail.com",@"300 metros oeste del plantel del Ministerio de Obras Públicas de Puriscal",nil];
+    _optionActionName = [NSArray arrayWithObjects:@"Llamar", @"Email",@"Navegar",nil];
+    _optionImages = [NSArray arrayWithObjects:@"iconollamada.png", @"iconomail.png",@"icomapa.png",nil];
+
     
 }
 
@@ -76,22 +72,19 @@
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString * cellIdentifier = @"optionTableViewCell";
+    static NSString * cellIdentifier = @"contactTableViewCell";
     
-    OptionTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    ContactTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     // normalmente se pone row en lugar de section
     long row = [indexPath section];
-
-    cell.lblNombre.text = _optionNames[row];
     
-    // según el id de la empresa se muestra cierta imagen
-    cell.imgIcono.image = [UIImage imageNamed:_optionImages[row]];
+    cell.lblOptionName.text = _optionNames[row];
+    cell.lblOptionDetail.text = _optionDetail[row];
+    cell.lblOptionActionName.text = _optionActionName[row];
     
-    [cell.layer setCornerRadius:35.0f];
+    cell.imgOption.image = [UIImage imageNamed:_optionImages[row]];
     
-
-
     return cell;
 }
 
@@ -115,7 +108,9 @@
             break;
             
         case 2:
-            viewName = @"contacto";
+            break;
+            
+        case 3:
             break;
             
         default:
@@ -129,9 +124,8 @@
         [self performSegueWithIdentifier:viewName sender:self];
     }
     
-   
-
+    
+    
     
 }
-
 @end

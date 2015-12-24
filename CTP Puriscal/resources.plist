@@ -512,14 +512,12 @@
 		<string>carreras.png</string>
 		<string>requisitos.png</string>
 		<string>contacto.png</string>
-		<string>localizacion.png</string>
 	</array>
 	<key>OptionNames</key>
 	<array>
 		<string>Técnicos Medios</string>
 		<string>Requisitos</string>
 		<string>Contacto</string>
-		<string>Dirección</string>
 	</array>
 	<key>CareerImages</key>
 	<array>
