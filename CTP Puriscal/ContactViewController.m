@@ -10,6 +10,9 @@
 #import "ContactTableViewCell.h"
 
 @interface ContactViewController ()
+{
+ 
+}
 
 @end
 
@@ -67,9 +70,6 @@
 
 
 
-
-
-
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString * cellIdentifier = @"contactTableViewCell";
@@ -79,53 +79,52 @@
     // normalmente se pone row en lugar de section
     long row = [indexPath section];
     
+    // guardamos el número de fila
+    cell.imgOption.tag = row;
+
+    
     cell.lblOptionName.text = _optionNames[row];
     cell.lblOptionDetail.text = _optionDetail[row];
     cell.lblOptionActionName.text = _optionActionName[row];
     
     cell.imgOption.image = [UIImage imageNamed:_optionImages[row]];
     
+    [cell.imgOption setUserInteractionEnabled:YES];
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(singleTapGestureCaptured:)];
+    [cell.imgOption addGestureRecognizer:singleTap];
+
+    
     return cell;
 }
 
+- (void)singleTapGestureCaptured:(UITapGestureRecognizer*)gesture{
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // obtenemos el índice del elemento que se seleccionó
-    NSInteger index = indexPath.section;
     
-    // variable que indica cuál vista debe abrir
-    NSString * viewName = @"";
+    long index = gesture.view.tag;
+     NSString *phoneNumber = @"tel://87866077";
+ 
     
-    // de acuerdo al elemento seleccionado modificamos el nombre del segue
+    // de acuerdo al item que le dieron click realizamos una acción
     switch (index) {
+            
+        // llamada
         case 0:
-            viewName = @"careers";
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber]];
             break;
             
         case 1:
-            viewName = @"requirements";
+
             break;
             
         case 2:
             break;
-            
-        case 3:
-            break;
+
             
         default:
             break;
     }
-    
-    // verficamos si hay un segue para mostrar
-    if(![viewName isEqualToString:@""])
-    {
-        // mostramos el segue
-        [self performSegueWithIdentifier:viewName sender:self];
-    }
-    
-    
-    
-    
+
 }
+
+
 @end

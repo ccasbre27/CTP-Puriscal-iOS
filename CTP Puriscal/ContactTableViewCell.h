@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ContactTableViewCell : UITableViewCell
+
 @property (weak, nonatomic) IBOutlet UILabel *lblOptionName;
 @property (weak, nonatomic) IBOutlet UILabel *lblOptionDetail;
 @property (weak, nonatomic) IBOutlet UILabel *lblOptionActionName;

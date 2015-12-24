@@ -162,6 +162,8 @@
 		78144FD51C1CA092007F787A /* CTP Puriscal */ = {
 			isa = PBXGroup;
 			children = (
+				78C8206D1C2BB2AD007FC354 /* ViewController */,
+				78C8206C1C2BB298007FC354 /* TableViewCell */,
 				783E072B1C248B800043D397 /* img */,
 				78144FFB1C1CA123007F787A /* Views */,
 				78144FD91C1CA092007F787A /* AppDelegate.h */,
@@ -169,19 +171,7 @@
 				78144FE21C1CA092007F787A /* Assets.xcassets */,
 				78144FE71C1CA092007F787A /* Info.plist */,
 				78144FD61C1CA092007F787A /* Supporting Files */,
-				783E07241C247EB10043D397 /* OptionsTableViewController.h */,
-				783E07251C247EB10043D397 /* OptionsTableViewController.m */,
-				783E07271C247FD00043D397 /* OptionTableViewCell.h */,
-				783E07281C247FD00043D397 /* OptionTableViewCell.m */,
-				783E07711C25C7300043D397 /* CareersTableViewController.h */,
-				783E07721C25C7300043D397 /* CareersTableViewController.m */,
 				783E07771C25D3DF0043D397 /* resources.plist */,
-				7887B36C1C25F35400FB16E8 /* CareerDetailViewController.h */,
-				7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */,
-				78C820661C2BA8FF007FC354 /* ContactTableViewCell.h */,
-				78C820671C2BA8FF007FC354 /* ContactTableViewCell.m */,
-				78C820691C2BAA67007FC354 /* ContactViewController.h */,
-				78C8206A1C2BAA67007FC354 /* ContactViewController.m */,
 			);
 			path = "CTP Puriscal";
 			sourceTree = "<group>";
@@ -249,6 +239,32 @@
 				783E074D1C248BC60043D397 /* turismom.png */,
 			);
 			name = img;
+			sourceTree = "<group>";
+		};
+		78C8206C1C2BB298007FC354 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				783E07271C247FD00043D397 /* OptionTableViewCell.h */,
+				783E07281C247FD00043D397 /* OptionTableViewCell.m */,
+				78C820661C2BA8FF007FC354 /* ContactTableViewCell.h */,
+				78C820671C2BA8FF007FC354 /* ContactTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		78C8206D1C2BB2AD007FC354 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				783E07241C247EB10043D397 /* OptionsTableViewController.h */,
+				783E07251C247EB10043D397 /* OptionsTableViewController.m */,
+				783E07711C25C7300043D397 /* CareersTableViewController.h */,
+				783E07721C25C7300043D397 /* CareersTableViewController.m */,
+				7887B36C1C25F35400FB16E8 /* CareerDetailViewController.h */,
+				7887B36D1C25F35400FB16E8 /* CareerDetailViewController.m */,
+				78C820691C2BAA67007FC354 /* ContactViewController.h */,
+				78C8206A1C2BAA67007FC354 /* ContactViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
